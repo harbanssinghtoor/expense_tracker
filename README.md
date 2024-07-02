@@ -3,6 +3,11 @@
 ## Overview
 Expense Tracker is a comprehensive application designed to manage and track user expenses. It utilizes a microservices architecture with multiple components including authentication, user management, Kafka for event streaming, and a frontend built with React Native. 
 
+## Low Level Design
+![Expense Tracker LLD](./screenshots/LLD.png)
+
+
+
 ## Auth Service
 The Auth Service handles user authentication and authorization.
 
@@ -47,6 +52,7 @@ Kafka is used to handle asynchronous communication between services.
 ### Event Flow:
 - The Auth Service sends data (publishes events) to Kafka after user signup.
 - The User Service consumes these events to process user data.
+
 
 ## Docker
 - Docker is used to containerize and initialize Kafka, MySQL, and Zookeeper.
@@ -93,7 +99,7 @@ Kafka is used to handle asynchronous communication between services.
    cd frontend
    npm install
    npm start
-   
+
 ### License:
 This project is licensed under the MIT License.
 
