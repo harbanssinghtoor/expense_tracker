@@ -7,7 +7,6 @@ Expense Tracker is a comprehensive application designed to manage and track user
 ![Expense Tracker LLD](./Screenshots/LLD.png)
 
 
-
 ## Auth Service
 The Auth Service handles user authentication and authorization.
 
@@ -57,6 +56,9 @@ Kafka is used to handle asynchronous communication between services.
 ## Docker
 - Docker is used to containerize and initialize Kafka, MySQL, and Zookeeper.
 - Ensure IP addresses of the containers match the localhost for proper connectivity.
+![Expense Tracker LLD](./Screenshots/DockerFile.png)
+
+![Expense Tracker LLD](./Screenshots/Docker_containers.png)
 
 ## API Gateway
 - Uses Kong as an API gateway to redirect API requests efficiently.
