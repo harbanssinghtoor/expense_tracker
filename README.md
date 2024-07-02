@@ -4,7 +4,7 @@
 Expense Tracker is a comprehensive application designed to manage and track user expenses. It utilizes a microservices architecture with multiple components including authentication, user management, Kafka for event streaming, and a frontend built with React Native. 
 
 ## Low Level Design
-![Expense Tracker LLD](./screenshots/LLD.png)
+![Expense Tracker LLD](./Screenshots/LLD.png)
 
 
 
